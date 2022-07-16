@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.main-navbar{
+    background: #030f27;
+    height: 50px;
+    color:#8a99c0;
+    padding:10px;
+}
+.icon{
+    color:#8a99c0 !important ; 
+}
+.nav-items li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.main-navbar .navbar-information::after{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: '';
+    transform: translateY(-50%);
+    width: 1px;
+    height: 120px;
+    background-color: #394664;
+}
